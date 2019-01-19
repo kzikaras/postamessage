@@ -44,8 +44,8 @@
         </div>
 
         <% for(i=0;i<posts.length;i++){ %>
-            <h3><%= posts[i].first_name %></h3>
-            <h3><%= posts[i].last_name %></h3>
+            <hr>
+            <h4><%= posts[i].first_name %> <%= posts[i].last_name %></h4>
             <p><%= posts[i].message %></p>
         <% } %>
     </div>
